@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+.container {
+    background-image: url('https://lucdia2.vn/anh-4k-thien-nhien/imager_1_53459_700.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://lucdia2.vn/anh-4k-thien-nhien/imager_1_53459_700.jpg');
+}
+.top {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(255, 197, 0);
+    border-radius: 8px;
+    height: 40px;
+    font-size: 15px;
+    color: #1b3815;
+    line-height: 1.2;
+    margin: 1rem;
+}
+.name {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.age {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.send {
+    background-color: rgb(255, 197, 0);
+    border: transparent;
+    color: rgb(72, 72, 72);
+    border-radius: 8px;
+    padding: 0.2rem;
+    width: 236px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+.container {
+    background-image: url('https://lucdia2.vn/anh-4k-thien-nhien/imager_1_53459_700.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://lucdia2.vn/anh-4k-thien-nhien/imager_1_53459_700.jpg');
+}
+.top {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-button {
+    text-align: center;
+    margin: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.middle-button {
+    text-align: center;
+    margin: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.bottom-button {
+    text-align: center;
+    margin: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.yellow {
+    margin-top: 24px;
+    background-color: rgb(255, 197, 0);
+    border: transparent;
+    color: rgb(72, 72, 72);
+    border-radius: 8px;
+    padding: 24px;
+    font-size: 24px;
+    width: 300px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.blue {
+    margin-top: 24px;
+    background-color: #1890ff;
+    border: transparent;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.red {
+    margin-top: 24px;
+    background-color: red;
+    border: transparent;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8%;
+}
+.text {
+    justify-content: center;
+}
+.center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.center-img {
+    width: 100%;
+    height: auto;
+}
